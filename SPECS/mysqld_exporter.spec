@@ -5,7 +5,7 @@
 
 Name:    mysqld_exporter
 Version: 0.10.0+percona.4
-Release: 1.vortex%{?dist}
+Release: 2.vortex%{?dist}
 Summary: Prometheus exporter for MySQL
 License: MIT
 Vendor:  Vortex RPM
@@ -92,5 +92,8 @@ fi
 %doc _build/%{_git_slug}/LICENSE _build/%{_git_slug}/README.md
 
 %changelog
+* Thu Jan 18 2018 Ilya Otyutskiy <ilya.otyutskiy@icloud.com> - 0.10.0+percona.4-2.vortex
+- Update
+
 * Thu Jan 18 2018 Ilya Otyutskiy <ilya.otyutskiy@icloud.com> - 0.10.0+percona.4-1.vortex
 - Initial packaging

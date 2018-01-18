@@ -1,1 +1,2 @@
 DATA_SOURCE_NAME='exporter:prometheus@/'
+MYSQLD_EXPORTER_OPTS='-collect.global_status -collect.global_variables -collect.slave_status'
